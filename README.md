@@ -4,6 +4,18 @@ One app concept, the **ShopOS Feed**, prototyped as single-page HTML apps and ad
 
 > Full documentation is coming. This README is only a map of the repo.
 
+## Download the skill
+
+**[Download feed-brand-replication.zip](https://github.com/lobster-shopos/feed-prototypes/releases/latest/download/feed-brand-replication.zip)**
+
+A skill that teaches an agent how to replicate a feed for a new brand. Give it a brand website (the only required input) and it follows the procedure in the skill.
+
+- **Claude Code:** unzip into `~/.claude/skills/` (all projects) or `.claude/skills/` inside a project. You should end up with `feed-brand-replication/SKILL.md`.
+- **Claude.ai:** Settings, Capabilities, Skills, upload the zip.
+- **Any other agent:** unzip and point it at `SKILL.md`; the files in `references/` are read as needed.
+
+The skill expects to be used inside a checkout of this repo, because it copies a template from `prototypes/`. The source lives in [`skills/feed-brand-replication/`](skills/feed-brand-replication/).
+
 ## Layout
 
 | Path | What it is |
